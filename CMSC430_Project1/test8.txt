@@ -1,0 +1,27 @@
+-- Punctuation symbols
+
+,;//.
+
+-- Identifier
+
+Wanner name123 
+
+-- Literals
+
+345
+
+-- Logical operators
+
+and or true
+
+-- Relational operators
+
+=>
+
+-- Arithmetic operator
+
+*
+
+-- Reserved words
+
+begin else end endif endreduce function if 
