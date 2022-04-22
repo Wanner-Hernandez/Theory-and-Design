@@ -1,0 +1,15 @@
+-- Nested if
+
+function main a: integer returns integer;
+    b: integer is 3;
+begin
+    if a then
+        if b then
+            a * 4;
+        else
+            a + 3;
+        endif;
+     else
+         a / 3;
+     endif;
+end;
