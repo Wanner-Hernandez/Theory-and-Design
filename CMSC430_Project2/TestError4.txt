@@ -1,0 +1,31 @@
+--- Testing case statement with errors
+if not 49 then
+falseresult = true;
+else endif;
+
+case myCase is
+endcase;
+
+case (myCase) is
+when 6 =>
+if (true) then
+falseresult;
+else
+true;
+endif;
+when 7
+
+others => falseresult;
+endcase;
+end;
+
+function test_1 returns boolean;
+begin
+some_var_ = 25;
+7 & 5 ^ 24 and 8 $ 5 * (7 - 4);
+2 ** 5 / 2;
+(22 >= 32) or true;
+false or (44.5 <= 44.);
+12.52 + 1. - 0.5;
+_bad_var /= 2;
+a__badbool boolean = true;

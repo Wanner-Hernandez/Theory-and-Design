@@ -1,0 +1,67 @@
+/comment 1
+--Testing case statement with errors
+
+function my_function b: real return boolean;
+this_var: real is 2.5E-10;
+myCase: integer is * 1000;
+falseresult: boolean is false;
+
+
+if (true) then
+this_var = 3.5e2;
+this_var = 3.5e2.5;
+else
+true;
+endif;
+
+this_var /= 125 or b = 21;
+this_var rem > 1;
+this_var = 23g;
+this_var = 45.;
+this_var = 45 mod 22;
+this_var = 45 rem 222;
+myCase = 10**2**3;
+myCase = rem 6 * 2;
+falseresult = not );
+falseresult = not (;
+false result = not 34;
+not 45;
+
+if not 45 then
+falseresult = true;
+else endif;
+
+case myCase is
+endcase;
+
+case (myCase) is
+when 4 =>
+if (true) then
+falseresult;
+else
+true;
+endif;
+when 7
+
+others => falseresult;
+endcase;
+end;
+
+begin
+some_var_ = 10;
+7 & 2 ^ 6 and 8 $ 5 * (7 - 4);
+2 ** 5 / 2;
+(22 >= 32) or true;
+false or (44.5 <= 44.);
+12.52 + 1. - 0.5;
+_bad_var /= 2;
+a__badbool boolean = true;
+
+endreduce;
+reduce when a_bool
+
+20 = a_var;
+
+endcase;
+case true
+end;

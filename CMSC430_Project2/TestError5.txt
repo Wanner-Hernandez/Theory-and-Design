@@ -1,0 +1,39 @@
+--Testing case statement with all added tokens
+
+if b-this_var < 1 and b/5 =0 then
+true;
+else
+false;
+endif; 
+when 6 =>
+if not(b<=this_var) then
+false;
+else
+true;
+endif; 
+others => false;
+endcase;
+end;
+
+begin
+if falseresult then
+true;
+else
+reduce *
+14 + 42;
+not;
+32 ----- 12;
+endreduce;
+endif;
+
+name__2
+_name3
+name4_
+
+-- Literals
+
+123 123.45 123. 1.2E2 1.e+2 1.2E-2 true false
+
+-- Logical operators
+
+and or not
